@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --global-black-color: #000;
+    --global-white-color: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: var(--global-white-color);
+}
+a{
+    text-decoration: none;
+    color: var(--global-black-color);
+}
+input{
+    outline: 0;
+}
